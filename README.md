@@ -60,12 +60,12 @@ Para usar o modelo para tradução, você pode inserir uma sentença em portugu�
 
 ## Exemplo 
 
-'''python
+```python
 
 evaluateAndShowAttention('ele nao e tao alto quanto seu pai')
 evaluateAndShowAttention('Eu estou muito feliz')
 
-'''
+```
 
 ## Resultados
 O modelo alcança uma qualidade de tradução razoável após aproximadamente 40 minutos de treinamento em uma CPU. Abaixo estão alguns exemplos de traduções:
