@@ -58,4 +58,21 @@ A avaliação é semelhante ao treinamento, mas sem usar as saídas alvo. As pre
 ## Uso
 Para usar o modelo para tradução, você pode inserir uma sentença em português, e o modelo fornecerá a tradução em inglês juntamente com as visualizações de atenção.
 
+## Exemplo 
+
+'''
+
+evaluateAndShowAttention('ele nao e tao alto quanto seu pai')
+evaluateAndShowAttention('Eu estou muito feliz')
+
+'''
+
+## Resultados
+O modelo alcança uma qualidade de tradução razoável após aproximadamente 40 minutos de treinamento em uma CPU. Abaixo estão alguns exemplos de traduções:
+
+| Sentença em Português  | Tradução em Inglês |
+| ------------- | ------------- |
+| ele nao e tao alto quanto seu pai  | he is not as tall as his father  |
+| eu estou muito feliz  | I am very happy  |
+
 
