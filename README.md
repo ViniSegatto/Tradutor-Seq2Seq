@@ -60,7 +60,7 @@ Para usar o modelo para tradução, você pode inserir uma sentença em portugu�
 
 ## Exemplo 
 
-'''
+'''python
 
 evaluateAndShowAttention('ele nao e tao alto quanto seu pai')
 evaluateAndShowAttention('Eu estou muito feliz')
